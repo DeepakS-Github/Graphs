@@ -7,6 +7,7 @@ import dymBurn from "../config/dymBurn.json"
 import doughnutRowData from "../config/doughnutRowData.json"
 import ibcTransfer from "../config/ibcTransfer.json"
 import newAddress from '../config/newAddress.json'
+import MultlineGraphCard from "../components/overview/MultlineGraphCard"
 
 const Overview = () => {
   return (
@@ -19,6 +20,7 @@ const Overview = () => {
           <AreaGraphCard objData={dymBurn} yKey="Amount" yAxisUnit="DYM"/>
           <AreaGraphCard objData={ibcTransfer} yKey="Transfers"/>
           <AreaGraphCard objData={newAddress} yKey="Addresses"/>
+          <MultlineGraphCard/>
         </SimpleGrid>
       </Flex>
     </>
