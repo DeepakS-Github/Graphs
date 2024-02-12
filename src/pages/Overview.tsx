@@ -8,6 +8,7 @@ import doughnutRowData from "../config/doughnutRowData.json"
 import ibcTransfer from "../config/ibcTransfer.json"
 import newAddress from '../config/newAddress.json'
 import MultlineGraphCard from "../components/overview/MultlineGraphCard"
+import InflowOutflowGraphCard from "../components/overview/InflowOutflowGraphCard"
 
 const Overview = () => {
   return (
@@ -21,6 +22,7 @@ const Overview = () => {
           <AreaGraphCard objData={ibcTransfer} yKey="Transfers"/>
           <AreaGraphCard objData={newAddress} yKey="Addresses"/>
           <MultlineGraphCard/>
+        <InflowOutflowGraphCard/>
         </SimpleGrid>
       </Flex>
     </>
