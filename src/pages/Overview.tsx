@@ -10,6 +10,7 @@ import newAddress from '../config/newAddress.json'
 import MultlineGraphCard from "../components/overview/MultlineGraphCard"
 import InflowOutflowGraphCard from "../components/overview/InflowOutflowGraphCard"
 import NonInteractiveLineGraphCard from "../components/overview/NonInteractiveLineGraphCard"
+import ZoomingBarGraphCard from "../components/overview/ZoomingBarGraphCard"
 
 const Overview = () => {
   return (
@@ -25,6 +26,7 @@ const Overview = () => {
           <MultlineGraphCard />
           <InflowOutflowGraphCard />
           <NonInteractiveLineGraphCard />
+          <ZoomingBarGraphCard/>
         </SimpleGrid>
       </Flex>
     </>
