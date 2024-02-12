@@ -9,6 +9,7 @@ import ibcTransfer from "../config/ibcTransfer.json"
 import newAddress from '../config/newAddress.json'
 import MultlineGraphCard from "../components/overview/MultlineGraphCard"
 import InflowOutflowGraphCard from "../components/overview/InflowOutflowGraphCard"
+import NonInteractiveLineGraphCard from "../components/overview/NonInteractiveLineGraphCard"
 
 const Overview = () => {
   return (
@@ -18,11 +19,12 @@ const Overview = () => {
         <TotalSupply objData={doughnutRowData} />
         <SimpleGrid columns={2} row={2} gap={"30px"}>
           <AreaGraphCard objData={stakingAPR} yKey="APR" yAxisUnit="%" />
-          <AreaGraphCard objData={dymBurn} yKey="Amount" yAxisUnit="DYM"/>
-          <AreaGraphCard objData={ibcTransfer} yKey="Transfers"/>
-          <AreaGraphCard objData={newAddress} yKey="Addresses"/>
-          <MultlineGraphCard/>
-        <InflowOutflowGraphCard/>
+          <AreaGraphCard objData={dymBurn} yKey="Amount" yAxisUnit="DYM" />
+          <AreaGraphCard objData={ibcTransfer} yKey="Transfers" />
+          <AreaGraphCard objData={newAddress} yKey="Addresses" />
+          <MultlineGraphCard />
+          <InflowOutflowGraphCard />
+          <NonInteractiveLineGraphCard />
         </SimpleGrid>
       </Flex>
     </>
