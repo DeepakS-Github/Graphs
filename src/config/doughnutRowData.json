@@ -1,0 +1,138 @@
+{
+  "title": "Total Supply",
+  "1D": {
+    "text": "1,001,004,459 DYM",
+    "percentage": "0.02%",
+    "duration": "24h",
+    "isIncreasing": true,
+    "chartData": [
+      {
+        "category": [
+          { "name": "Bonded", "value": 30.9, "dym": "691.7M DYM" },
+          { "name": "Unbonded", "value": 69.1, "dym": "309.31M DYM" }
+        ],
+        "colors": ["#2f67c3", "#f1e1d4"],
+        "centerDataHead": "Inflation",
+        "centerData": "8.8%"
+      },
+      {
+        "category": [
+          { "name": "Onchain Gov", "value": 38.03, "dym": "380.71M DYM" },
+          { "name": "Vesting", "value": 47.29, "dym": "473.4M DYM" },
+          { "name": "Circulating", "value": 14.68, "dym": "146.91M DYM" }
+        ],
+        "colors": ["#e3a131", "#f05959", "#25a418"],
+        "centerDataHead": "Supply",
+        "centerData": "1.001B"
+      }
+    ]
+  },
+  "1W": {
+    "text": "2,345,678,901 DYM",
+    "percentage": "0.01%",
+    "duration": "24h",
+    "isIncreasing": true,
+    "chartData": [
+      {
+        "category": [
+          { "name": "Bonded", "value": 45.7, "dym": "543M DYM" },
+          { "name": "Unbonded", "value": 54.3, "dym": "457M DYM" }
+        ],
+        "colors": ["#2f67c3", "#f1e1d4"],
+        "centerDataHead": "Inflation",
+        "centerData": "9.4%"
+      },
+      {
+        "category": [
+          { "name": "Onchain Gov", "value": 24.55, "dym": "245.5M DYM" },
+          { "name": "Vesting", "value": 37.82, "dym": "378.2M DYM" },
+          { "name": "Circulating", "value": 37.63, "dym": "376.3M DYM" }
+        ],
+        "colors": ["#e3a131", "#f05959", "#25a418"],
+        "centerDataHead": "Supply",
+        "centerData": "1.045B"
+      }
+    ]
+  },
+  "1M": {
+    "text": "987,632,102 DYM",
+    "percentage": "0.03%",
+    "duration": "24h",
+    "isIncreasing": false,
+    "chartData": [
+      {
+        "category": [
+          { "name": "Bonded", "value": 20.5, "dym": "795.5M DYM" },
+          { "name": "Unbonded", "value": 79.5, "dym": "205.1M DYM" }
+        ],
+        "colors": ["#2f67c3", "#f1e1d4"],
+        "centerDataHead": "Inflation",
+        "centerData": "11.2%"
+      },
+      {
+        "category": [
+          { "name": "Onchain Gov", "value": 18.92, "dym": "189.2M DYM" },
+          { "name": "Vesting", "value": 51.27, "dym": "512.7M DYM" },
+          { "name": "Circulating", "value": 29.81, "dym": "298.1M DYM" }
+        ],
+        "colors": ["#e3a131", "#f05959", "#25a418"],
+        "centerDataHead": "Supply",
+        "centerData": "7.320B"
+      }
+    ]
+  },
+  "1Y": {
+    "text": "1,234,567,890 DYM",
+    "percentage": "0.05%",
+    "duration": "24h",
+    "isIncreasing": true,
+    "chartData": [
+      {
+        "category": [
+          { "name": "Bonded", "value": 60.2, "dym": "398M DYM" },
+          { "name": "Unbonded", "value": 39.8, "dym": "602M DYM" }
+        ],
+        "colors": ["#2f67c3", "#f1e1d4"],
+        "centerDataHead": "Inflation",
+        "centerData": "7.3%"
+      },
+      {
+        "category": [
+          { "name": "Onchain Gov", "value": 42.15, "dym": "421.5M DYM" },
+          { "name": "Vesting", "value": 31.48, "dym": "314.8M DYM" },
+          { "name": "Circulating", "value": 26.37, "dym": "263.7M DYM" }
+        ],
+        "colors": ["#e3a131", "#f05959", "#25a418"],
+        "centerDataHead": "Supply",
+        "centerData": "4.051B"
+      }
+    ]
+  },
+  "ALL": {
+    "text": "3,456,789,012 DYM",
+    "percentage": "0.04%",
+    "duration": "24h",
+    "isIncreasing": false,
+    "chartData": [
+      {
+        "category": [
+          { "name": "Bonded", "value": 75.6, "dym": "244M DYM" },
+          { "name": "Unbonded", "value": 24.4, "dym": "756M DYM" }
+        ],
+        "colors": ["#2f67c3", "#f1e1d4"],
+        "centerDataHead": "Inflation",
+        "centerData": "15.9%"
+      },
+      {
+        "category": [
+          { "name": "Onchain Gov", "value": 33.22, "dym": "332.2M DYM" },
+          { "name": "Vesting", "value": 28.15, "dym": "281.5M DYM" },
+          { "name": "Circulating", "value": 38.63, "dym": "386.3M DYM" }
+        ],
+        "colors": ["#e3a131", "#f05959", "#25a418"],
+        "centerDataHead": "Supply",
+        "centerData": "1.541B"
+      }
+    ]
+  }
+}

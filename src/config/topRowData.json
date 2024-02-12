@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Total Addresses Count",
+    "text": "660,561",
+    "percentage": "90.24%",
+    "duration": "7d",
+    "isIncreasing": true
+  },
+  {
+    "title": "Staking APR",
+    "text": "28.45%",
+    "percentage": "3.08%",
+    "duration": "24h",
+    "isIncreasing": false
+  },
+  {
+    "title": "Block Height",
+    "text": "75,441"
+  },
+  {
+    "title": "Block Time",
+    "text": "5.93",
+    "extraContentText": "s"
+  }
+]
