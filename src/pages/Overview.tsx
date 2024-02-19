@@ -11,6 +11,7 @@ import MultlineGraphCard from "../components/overview/MultlineGraphCard"
 import InflowOutflowGraphCard from "../components/overview/InflowOutflowGraphCard"
 import NonInteractiveLineGraphCard from "../components/overview/NonInteractiveLineGraphCard"
 import ZoomingBarGraphCard from "../components/overview/ZoomingBarGraphCard"
+import EchartPieCard from "../components/overview/EchartPieCard"
 
 const Overview = () => {
   return (
@@ -27,6 +28,7 @@ const Overview = () => {
           <InflowOutflowGraphCard />
           <NonInteractiveLineGraphCard />
           <ZoomingBarGraphCard/>
+          <EchartPieCard/>
         </SimpleGrid>
       </Flex>
     </>
