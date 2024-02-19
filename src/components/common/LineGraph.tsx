@@ -25,7 +25,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 
-const CustomTooltip = ({ active, payload, label, yAxisUnit }: any) => {
+const CustomTooltip = ({ active, payload, yAxisUnit }: any) => {
   console.log(payload);
   if (active && payload && payload.length) {
     return (

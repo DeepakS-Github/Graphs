@@ -1,4 +1,7 @@
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Brush, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Brush, 
+    // Tooltip, 
+    // Legend, 
+    ResponsiveContainer } from 'recharts';
 
 
 // Generate data points

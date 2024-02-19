@@ -7,7 +7,7 @@ import {
     Tooltip,
     ResponsiveContainer,
 } from "recharts";
-import { Flex, Text } from "@chakra-ui/react";
+// import { Flex, Text } from "@chakra-ui/react";
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -65,22 +65,22 @@ const data = [
 
 
 
-const CustomTooltip = ({ active, payload, label, yAxisUnit }: any) => {
-    console.log(payload);
-    if (active && payload && payload.length) {
-        return (
-            <Flex bgColor="#312c2c" gap={"4px"} flexDir={"column"} textColor="#d1d5db" px={"16px"} py={"8px"} borderRadius={"4px"} boxShadow={"sm"}>
-                <Text textColor={"#837971"} fontWeight={500}>{`${payload[0].payload.date} ${payload[0].payload.time}`}</Text>
-                <Flex fontSize={"14px"} gap={"2px"} textColor={"#decfc3"}>
-                    <Text>{payload[0].dataKey}: </Text>
-                    <Text fontWeight={500}>{payload[0].value} {yAxisUnit}</Text>
-                </Flex>
-            </Flex>
-        );
-    }
+// const CustomTooltip = ({ active, payload, label, yAxisUnit }: any) => {
+//     console.log(payload);
+//     if (active && payload && payload.length) {
+//         return (
+//             <Flex bgColor="#312c2c" gap={"4px"} flexDir={"column"} textColor="#d1d5db" px={"16px"} py={"8px"} borderRadius={"4px"} boxShadow={"sm"}>
+//                 <Text textColor={"#837971"} fontWeight={500}>{`${payload[0].payload.date} ${payload[0].payload.time}`}</Text>
+//                 <Flex fontSize={"14px"} gap={"2px"} textColor={"#decfc3"}>
+//                     <Text>{payload[0].dataKey}: </Text>
+//                     <Text fontWeight={500}>{payload[0].value} {yAxisUnit}</Text>
+//                 </Flex>
+//             </Flex>
+//         );
+//     }
 
-    return null;
-};
+//     return null;
+// };
 
 const MultLineGraph = () => {
 

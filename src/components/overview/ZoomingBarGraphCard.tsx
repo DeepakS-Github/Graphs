@@ -1,6 +1,6 @@
 import Card from "../common/Card"
 import CardText from "../common/CardText"
-import { Box, Text } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 import ZoomingBarGraph from "../common/ZoomingBarGraph"
 
 const ZoomingBarGraphCard = () => {

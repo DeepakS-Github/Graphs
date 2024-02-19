@@ -9,7 +9,8 @@ import { PieChart, Pie, Sector, Cell } from "recharts";
 
 const renderActiveShape = (props: any, doughnutData: any) => {
   const RADIAN = Math.PI / 180;
-  const { cx, cy, midAngle, innerRadius, outerRadius, startAngle, endAngle, fill, payload, percent, value, name } = props;
+  // const { cx, cy, midAngle, innerRadius, outerRadius, startAngle, endAngle, fill, payload, percent, value, name } = props;
+  const { cx, cy, midAngle, innerRadius, outerRadius, startAngle, endAngle, fill, payload, percent, name } = props;
   // console.log("props", props);
   const sin = Math.sin(-RADIAN * midAngle);
   const cos = Math.cos(-RADIAN * midAngle);
@@ -60,7 +61,7 @@ const DoughnutChart = ({ doughnutData }: any) => {
 
   let activeIndex: Array<number> = [];
 
-  doughnutData.category.map((entry: any, index: number) => {  
+  doughnutData.category.map((_entry: any, index: number) => {  
     activeIndex.push(index);
   })
 
@@ -78,7 +79,7 @@ const DoughnutChart = ({ doughnutData }: any) => {
         paddingAngle={3}
         dataKey="value"
       >
-        {doughnutData.category.map((entry: any, index: number) => (
+        {doughnutData.category.map((_entry: any, index: number) => (
           <Cell key={`cell-${index}`} fill={doughnutData.colors[index % doughnutData.colors.length]} />
         ))}
       </Pie>

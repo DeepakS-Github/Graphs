@@ -1,13 +1,13 @@
 import {
     AreaChart,
     Area,
-    XAxis,
-    YAxis,
-    CartesianGrid,
-    Tooltip,
+    // XAxis,
+    // YAxis,
+    // CartesianGrid,
+    // Tooltip,
     ResponsiveContainer,
 } from "recharts";
-import { Flex, Text } from "@chakra-ui/react";
+// import { Flex, Text } from "@chakra-ui/react";
 import { v4 as uuidv4 } from 'uuid';
 
 const data = [
